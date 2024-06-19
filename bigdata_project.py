@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # 데이터 불러오기
-file_path = 'cafe.xlsx'
+file_path = 'D:\2024\Python\cafe.xlsx'
 cafe_data = pd.read_excel(file_path)
 
 # order_date를 datetime형식으로 변환
