@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import openpyxl
 
 # 데이터 불러오기
 file_path = r'./cafe.xlsx'
